@@ -14,7 +14,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="@color/yellow">
 
             <ImageView
                 android:id="@+id/navbar"
@@ -37,6 +38,19 @@
                 android:textColor="@color/textColor"
                 android:textSize="@dimen/_12sdp"
                 android:visibility="gone" />
+
+            <com.github.angads25.toggle.LabeledSwitch
+                android:id="@+id/switch4"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/_10sdp"
+                android:textSize="@dimen/_12sdp"
+                app:colorBorder="@color/black"
+                app:colorOn="@color/green_spalsh"
+                app:on="false"
+                app:textOff="Offline"
+                app:textOn="Online" />
 
         </RelativeLayout>
 
@@ -98,6 +112,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerInParent="true"
                     android:text="ONLINE"
+                    android:visibility="gone"
                     android:textColor="@color/white"
                     android:textColorHint="@color/black" />
 

@@ -9,6 +9,7 @@ import android.os.Bundle;
 
 import com.taxidriver.R;
 import com.taxidriver.databinding.ActivityDocumentBinding;
+import com.taxidriver.vehicles.AddVehicleAct;
 
 public class DocumentAct extends AppCompatActivity {
 
@@ -25,7 +26,7 @@ public class DocumentAct extends AppCompatActivity {
     private void itit() {
 
         binding.btnNext.setOnClickListener(v -> {
-            startActivity(new Intent(mContext,AddVehicleAct.class));
+            startActivity(new Intent(mContext, AddVehicleAct.class));
         });
 
     }

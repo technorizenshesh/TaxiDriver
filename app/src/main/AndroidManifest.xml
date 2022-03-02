@@ -18,158 +18,229 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PICK" />
+        </intent>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TaxiDriver"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.DonateAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.FAQAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.CardDetailsAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.StatisticsAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.EmergencyContactAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.WebviewAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.DriverDocUpdateAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.UserFeedbackAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.TrackPoolRequestAct"
+            android:exported="false" />
+        <activity
+            android:name=".activities.AddPoolOfferAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ActiveScheduleDriverAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vehicles.ManageVehicleAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vehicles.EditVehicleAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.HomeV3CubeAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".vehicles.AddVehicleAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CarPoolSingleTrackAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.CarPoolTrackAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.OfferPoolListAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.OfferPoolAct"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".activities.InvoiceAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.CummunityGuideAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.RideDetailsAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.PaymentSuccessAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.InsuranceAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.InvoiceSettingAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.TaxInfoAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.AccountAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.EarningAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.WalletRechargeAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.NotifyAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.DriverPrefrencesAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.RatingReviewAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.FeedbackAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.EndTripAct"
-            android:exported="true" />
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.UpdateDocAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.SubscriptionAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.DocumentAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.AddVehicleAct"
-            android:exported="true"
-            android:launchMode="singleInstance"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activities.MyVehicleAct"
-            android:exported="true"
+            android:name=".vehicles.MyVehicleAct"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.TrackAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.UpdateProfileAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.ChatingAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.ChatListAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.RideCancellationAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.RideHistoryAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.PromocodesAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.VerifyAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.HomeAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.WalletAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.ForgotPassAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.TermConditionAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.SignUpAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.LoginAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait" />
         <activity
             android:name=".activities.SplashAct"
-            android:exported="true"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -178,9 +249,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -223,6 +292,22 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/picker_provider_paths" />
         </provider>
+
+        <service
+            android:name=".utils.MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".fcm.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
     </application>
 
 </manifest>

@@ -41,30 +41,6 @@ public class EarningAct extends AppCompatActivity {
 
     private void itit() {
 
-        // calling method to get bar entries.
-        getBarEntries();
-
-        // creating a new bar data set.
-        barDataSet = new BarDataSet(barEntriesArrayList, "Earnigs");
-
-        // creating a new bar data and
-        // passing our bar data set.
-        barData = new BarData(barDataSet);
-
-        // below line is to set data
-        // to our bar chart.
-        binding.chart.setData(barData);
-
-        // adding color to our bar data set.
-        barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
-
-        // setting text color.
-        barDataSet.setValueTextColor(Color.BLACK);
-
-        // setting text size
-        barDataSet.setValueTextSize(16f);
-        binding.chart.getDescription().setEnabled(false);
-
         TabLayout.Tab tab1 = binding.tabLayut.newTab();
         tab1.setText("Today");
         binding.tabLayut.addTab(tab1);

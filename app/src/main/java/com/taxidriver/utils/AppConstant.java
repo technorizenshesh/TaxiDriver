@@ -2,7 +2,11 @@ package com.taxidriver.utils;
 
 public interface AppConstant {
 
-    String BASE_URL = "https://dayscab.com/dayscab_taxi/webservice/";
+    String BASE_URL = "https://technorizen.com/australia_taxi/webservice/";
+    String IMAGE_URL = "https:\\/\\/technorizen.com\\/australia_taxi\\/uploads\\/images\\/";
+
+    String STRIPE_TEST_KEY = "pk_test_51KTZwKIw5rTloFYcnhgyfZm6LkEa3QkHefDq5MgvHTp2axO7OdRX3ot91xufrPBeKvkKuXO7knIOVcx5qmsjcIul00xbzocfa6";
+    String STRIPE_LIVE_KEY = "type";
 
     String TYPE = "type";
     String USER = "USER";
@@ -11,7 +15,7 @@ public interface AppConstant {
     String LOGIN_API = "login";
     String MY_LOCATION = "Your Location";
     String RES_DRIVER = "RES_DRIVER";
-    String CURRENCY = "Birr";
+    String CURRENCY = "$";
     String EBIRR = "EBIRR";
     String SAHAY = "Sahay";
     String HELLO_CASH = "Hello Cash";

@@ -9,6 +9,8 @@ import android.os.Bundle;
 
 import com.taxidriver.R;
 import com.taxidriver.databinding.ActivityAccountBinding;
+import com.taxidriver.vehicles.ManageVehicleAct;
+import com.taxidriver.vehicles.MyVehicleAct;
 
 public class AccountAct extends AppCompatActivity {
 
@@ -25,7 +27,7 @@ public class AccountAct extends AppCompatActivity {
     private void itit() {
 
         binding.cvVehicle.setOnClickListener(v -> {
-            startActivity(new Intent(mContext, MyVehicleAct.class));
+            startActivity(new Intent(mContext, ManageVehicleAct.class));
         });
 
         binding.cvDocument.setOnClickListener(v -> {

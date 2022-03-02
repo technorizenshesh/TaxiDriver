@@ -1,0 +1,510 @@
+<resources>
+    <string name="app_name">TaxiDriver</string>
+    <string name="api_key" translatable="false">AIzaSyAAjp4wuz5FyteoKH3Yp7Cv8pS1K86fJw0</string>
+    <string name="facebook_app_id">313870737210409</string>
+    <string name="fb_login_protocol_scheme">fb313870737210409</string>
+    <string name="logo">LOGO</string>
+    <string name="logout_text">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="forgot_your_password">Mot de passe oublié?</string>
+    <string name="login">Connexion</string>
+    <string name="or_login_with_social_account">Ou connectez-vous avec un compte social</string>
+    <string name="dont_have_an_account">Vous n\'avez pas de compte ?</string>
+    <string name="submit">Nous faire parvenir</string>
+    <string name="set">Régler</string>
+    <string name="forgotpasswordtext">Veuillez saisir votre adresse e-mail. Vous serez<br>  </br> recevoir un lien pour créer un nouveau mot de passe via<br>  </br> e-mail.</string>
+    <string name="forgot_password">Mot de passe oublié</string>
+    <string name="verify_your_account">Vérifiez votre compte</string>
+    <string name="we_sent_4_digit_code_to_your_phone">Nous avons envoyé un code à 6 chiffres sur votre téléphone</string>
+    <string name="resend">Renvoyer</string>
+    <string name="please_select_the_reason_for_cancellation">Veuillez sélectionner la raison<br>  </br> pour annulation :</string>
+    <string name="i_don_t_want_to_share">je ne veux pas partager</string>
+    <string name="can_t_contact_the_driver">Impossible de contacter le chauffeur</string>
+    <string name="driver_is_late">Le chauffeur est en retard</string>
+    <string name="the_price_is_not_reasonable">Le prix n\'est pas raisonnable</string>
+    <string name="pickup_address_is_incorrect">L\'adresse de prise en charge est incorrecte</string>
+    <string name="verify">Vérifier</string>
+    <string name="upload_picture">Charger une photo</string>
+    <string name="term_text">j\'accepte tous les<font fgcolor="#F6E24F"> Termes et conditions</font>  </string>
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom de famille</string>
+    <string name="city_name">Ville</string>
+    <string name="home_add">Adresse du domicile</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="estimated_trip_time">Temps de trajet estimé</string>
+    <string name="available_balance">Solde disponible</string>
+    <string name="i_m_coming">J\'arrive</string>
+    <string name="already_have_an_account">Vous avez déjà un compte?</string>
+    <string name="home">Maison</string>
+    <string name="rider_isn_t_here">Le cavalier n\'est pas là</string>
+    <string name="wrong_address_shown">Mauvaise adresse affichée</string>
+    <string name="don_t_charge_rider">Ne chargez pas Rider</string>
+    <string name="ride_history">Historique des trajets</string>
+    <string name="help">Aider</string>
+    <string name="sign_out">Se déconnecter</string>
+    <string name="message">Un message</string>
+    <string name="promocode">Code de promo</string>
+    <string name="change_language">Changer de langue</string>
+    <string name="select_pick_up_address">Sélectionnez l\'adresse de ramassage</string>
+    <string name="sel_destination">Sélectionnez l\'adresse de destination</string>
+    <string name="next">Suivant</string>
+    <string name="transactions">Transactions</string>
+    <string name="recharge">Recharger</string>
+    <string name="update_picture">Mettre à jour l\'image</string>
+    <string name="save_details">Enregistrer les détails</string>
+    <string name="english">Anglais</string>
+    <string name="spanish">Espagnol</string>
+    <string name="italian">italien</string>
+    <string name="german">Allemand</string>
+    <string name="desti_loc">Lieu de destination</string>
+    <string name="update_when_you_arrived">Mettre à jour à votre arrivée</string>
+    <string name="start_the_trip">Commencez le voyage</string>
+    <string name="end_the_trip">Terminer le voyage</string>
+    <string name="arrived_text">Êtes-vous sûr d\'être arrivé au lieu de prise en charge ?</string>
+    <string name="start_the_trip_text">Êtes-vous sûr de vouloir commencer le voyage ?</string>
+    <string name="end_the_trip_text">Êtes-vous sûr de vouloir terminer le voyage ?</string>
+    <string name="save">sauvegarder</string>
+    <string name="kung_fu_chau_added_new_images_in_furniture_and_garden">Kung Fu Chau a ajouté de nouvelles images dans Meubles et Jardin.</string>
+    <string name="apply_now">Appliquer maintenant</string>
+    <string name="type_a_message">Tapez un message</string>
+    <string name="your_taxi_has_arrived">Votre taxi est arrivé</string>
+    <string name="call">Appel</string>
+    <string name="searching_for_a_driver">Recherche chauffeur...</string>
+    <string name="msg">Un message</string>
+    <string name="rate">Taux</string>
+    <string name="payment_options">Options de paiement</string>
+    <string name="select_payment">Sélectionnez Paiement</string>
+    <string name="card_payment">Paiement par carte</string>
+    <string name="cash">En espèces</string>
+    <string name="trip_finish_text">Votre voyage est terminé ! Veuillez effectuer le paiement</string>
+    <string name="ok">D\'accord</string>
+    <string name="your_trip_has_ended">Votre voyage est terminé</string>
+    <string name="book_ride">Réserver un tour</string>
+    <string name="please_check_internet">S\'il vous plait, vérifiez votre connexion internet!</string>
+    <string name="terms_condition">termes</string>
+    <string name="terms_condition_text">Lorem Ipsum est simplement un faux texte de l\'industrie de l\'impression et de la composition. Le Lorem Ipsum est le texte factice standard de l\'industrie depuis les années 1500, lorsqu\'un imprimeur inconnu a pris une galère de caractères et l\'a brouillé pour en faire un livre de spécimens de caractères. Il a survécu non seulement à cinq siècles, mais aussi au saut dans la composition électronique, restant essentiellement inchangé. Il a été popularisé dans les années 1960 avec la sortie de feuilles Letraset contenant des passages de Lorem Ipsum, et plus récemment avec des logiciels de publication assistée par ordinateur comme Aldus PageMaker comprenant des versions de Lorem Ipsum.</string>
+    <string name="my_vehicle">Mon véhicule</string>
+    <string name="accept">J\'accepte</string>
+    <string name="reject">Rejeter</string>
+    <string name="vehicle_name">Nom du véhicule</string>
+    <string name="vehicle_number">Numéro de véhicule</string>
+    <string name="model">Modèle</string>
+    <string name="brand">Marque</string>
+    <string name="service_type">type de service</string>
+    <string name="add_vehicle">Ajouter un véhicule</string>
+    <string name="vehicle_type">Sélectionnez le type de véhicule</string>
+    <string name="vehicle_service_type">Sélectionnez le type de service</string>
+    <string name="brand_type">Type de marque</string>
+    <string name="vehicle_model">Modèle</string>
+    <string name="number_plate">Numéro de plaque d\'immatriculation</string>
+    <string name="add">Ajouter</string>
+    <string name="upload_documents">Télécharger des documents</string>
+    <string name="upload_documentss">Télécharger un document</string>
+    <string name="done">Terminé</string>
+    <string name="pan_card_text">Veuillez télécharger la carte panoramique</string>
+    <string name="driving_licesne_text">Veuillez télécharger votre permis de conduire</string>
+    <string name="check_internet_text">S\'il vous plait, vérifiez votre connexion internet!</string>
+    <string name="dummy_text">Lorem Ipsum est simplement un faux texte de l\'industrie de l\'impression et de la composition. Lorem Ipsum a été le texte factice standard de l\'industrie</string>
+    <string name="dummy_text1">Lorem Ipsum est simplement un faux texte de l\'industrie de l\'impression et de la composition. Le Lorem Ipsum est le texte factice standard de l\'industrie depuis les années 1500, lorsqu\'un imprimeur inconnu a pris une galère de caractères et l\'a brouillé pour en faire un livre de spécimens de caractères. Il a survécu non seulement à cinq siècles, mais aussi au saut dans la composition électronique, restant essentiellement inchangé. Il a été popularisé dans les années 1960 avec la sortie de feuilles Letraset contenant des passages de Lorem Ipsum, et plus récemment avec des logiciels de publication assistée par ordinateur comme Aldus PageMaker comprenant des versions de Lorem Ipsum.</string>
+    <string name="subscriptions">Abonnements</string>
+    <string name="_25_40_trips">25 $ /40 voyages</string>
+    <string name="_50_90_trips">50 $ /90 voyages</string>
+    <string name="_100_120_trips">100 $ /120 voyages</string>
+    <string name="purchase">Acheter</string>
+    <string name="documents">Documents</string>
+    <string name="aadhar_card">Carte Adhar</string>
+    <string name="driving_license">Permis de conduire</string>
+    <string name="pan_card">Carte PAN</string>
+    <string name="start">Démarrer</string>
+    <string name="ride_has_ended">Le trajet est terminé</string>
+    <string name="collect_payment">Encaisser le paiement</string>
+    <string name="send_feedback">Envoyer des commentaires</string>
+    <string name="rate_rider">Tarif Avenant</string>
+    <string name="ratings_and_reviews">Notes et avis</string>
+    <string name="open_to_all_trip">Ouvert à tous les voyages</string>
+    <string name="driver_preferences">Préférences du pilote</string>
+    <string name="services">Prestations de service</string>
+    <string name="notify">Avis</string>
+    <string name="wallet_recharge">Recharger le portefeuille</string>
+    <string name="recharge_wallet_through">Recharger le portefeuille via</string>
+    <string name="card_pay">Paiement par carte</string>
+    <string name="paypal">Pay Pal</string>
+    <string name="earnings">Gains</string>
+    <string name="total_earnings">Total des gains</string>
+    <string name="account">Compte</string>
+    <string name="tax_information">Informations fiscales</string>
+    <string name="edit_account">Modifier le compte</string>
+    <string name="insurance">Assurance</string>
+    <string name="tax_profile">Profil fiscal</string>
+    <string name="invoice_settings">Paramètres de facturation</string>
+    <string name="please_insert_your_first_and_last_name_on_entity_name_as_shown_on_your_abn_gst_registration">Veuillez insérer votre prénom et votre nom, sur le nom de l\'entité tel qu\'indiqué sur votre enregistrement ABN/TPS.</string>
+    <string name="enter_your_full_name">Entrez votre nom complet</string>
+    <string name="country">De campagne</string>
+    <string name="postal_code">code postal</string>
+    <string name="disclaimer">Avertissement</string>
+    <string name="continue1">Continuez</string>
+    <string name="cummunity_guidlines">Lignes directrices communautaires</string>
+    <string name="invoice">Facturer</string>
+    <string name="select_invoice_generating_date">Sélectionnez la date de génération de la facture</string>
+    <string name="select_service">Sélectionnez votre service</string>
+    <string name="ride_sharing">Covoiturage</string>
+    <string name="car_pooling">Faire du covoiturage</string>
+    <string name="add_vehicle_for_ride_share">Ajouter un véhicule pour le covoiturage</string>
+    <string name="add_vehicle_for_car_pool">Ajouter un véhicule pour le covoiturage</string>
+    <string name="normal_vehicle">Véhicule normal</string>
+    <string name="offer_pool">Piscine d\'offre</string>
+    <string name="select_date_and_time">Sélectionnez la date et l\'heure</string>
+    <string name="add_pool_request">Piscine d\'offre</string>
+    <string name="available_riders">Coureurs disponibles</string>
+    <string name="my_pool_request">Ma Piscine Offerte</string>
+    <string name="vehicle_make">Sélectionnez la marque du véhicule</string>
+    <string name="select_vehicle_model">Sélectionnez le modèle de véhicule</string>
+    <string name="add_service_type">Sélectionnez le type de service pour ce véhicule</string>
+    <string name="both">Tous les deux</string>
+
+    <string name="email_not_found">L\'e-mail n\'est pas enregistré chez nous</string>
+    <string name="reset_pass_msg">Lien de réinitialisation du mot de passe envoyé à votre identifiant de messagerie</string>
+    <string name="enter_name_text">S\'il vous plaît entrez votre nom</string>
+    <string name="enter_name_firsttext">Entrez votre prénom s\'il vous plait</string>
+    <string name="enter_name_lasttext">Veuillez entrer votre nom de famille</string>
+    <string name="enter_email_text">Veuillez saisir votre e-mail</string>
+    <string name="enter_email">Veuillez saisir un e-mail</string>
+    <string name="enter_phone_text">Veuillez entrer votre numéro de téléphone</string>
+    <string name="enter_valid_email">Veuillez saisir une adresse e-mail valide</string>
+    <string name="please_enter_pass">Veuillez entrer le mot de passe</string>
+    <string name="enter_city_text">Veuillez sélectionner votre ville</string>
+    <string name="enter_address1_text">Veuillez saisir l\'adresse de votre domicile</string>
+    <string name="enter_address2_text">Veuillez sélectionner l\'adresse du domicile 2</string>
+    <string name="enter_number_plate">Veuillez entrer la plaque d\'immatriculation</string>
+    <string name="mandatory_fields_text">Tous les champs sont obligatoires</string>
+    <string name="password_validation_text">Le mot de passe doit comporter 5 caractères ou plus</string>
+    <string name="please_accept_terms">Veuillez accepter les termes et conditions</string>
+    <string name="please_upload_profile">Veuillez télécharger une photo de profil</string>
+    <string name="enter_6_digit_code">Veuillez entrer le code de vérification à 6 chiffres</string>
+    <string name="please_wait">S\'il vous plaît, attendez...</string>
+    <string name="invalid_otp">Mot de passe invalide</string>
+    <string name="invalid_credentials">Les informations d\'identification invalides</string>
+    <string name="add_year_vehicle_text">Veuillez sélectionner l\'année de fabrication</string>
+    <string name="select_vehicle_type">Veuillez sélectionner le type de véhicule</string>
+    <string name="no_cat_found">Aucune catégorie trouvée</string>
+    <string name="no_models_found">Aucun modèle trouvé</string>
+    <string name="no_make_found">Aucune marque trouvée</string>
+    <string name="basic">De base</string>
+    <string name="normal">Normal</string>
+    <string name="luxary">Luxueux</string>
+    <string name="pool">Piscine</string>
+    <string name="select_vehicle_make">Sélectionnez la marque du véhicule</string>
+    <string name="work_address">Adresse professionnelle</string>
+    <string name="work_address_op">Adresse professionnelle (facultatif)</string>
+    <string name="please_select_service_type">Veuillez sélectionner le type de service</string>
+    <string name="help_keep_your_community_safe">Aidez à assurer la sécurité de votre communauté</string>
+    <string name="please_take_the_following_actions_to_keep_cummunity_safe">Veuillez prendre les mesures suivantes pour assurer la sécurité de la communauté</string>
+    <string name="wear_a_face_cover_or_mask">Portez un couvre-visage ou un masque.</string>
+    <string name="keep_sanitize_products_with_you">Gardez des produits désinfectants avec vous.</string>
+    <string name="wash_or_sanitize_your_hands_before_and_after_your_service">Lavez-vous ou désinfectez-vous les mains avant et après votre service.</string>
+    <string name="disinfect_your_belongings_everydays">Désinfectez vos affaires tous les jours.</string>
+    <string name="ask_customers_to_sanitize_hands_before_service">Demandez aux clients de se désinfecter les mains avant le service.</string>
+    <string name="agree">Accepter</string>
+    <string name="bookings">Réservations</string>
+    <string name="wallet">Portefeuille</string>
+    <string name="profile">Profil</string>
+
+    <string-array name="select_year_earnings">
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1987</item>
+        <item>1986</item>
+        <item>1985</item>
+        <item>1984</item>
+        <item>1983</item>
+        <item>1982</item>
+        <item>1981</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978</item>
+        <item>1977</item>
+        <item>1976</item>
+        <item>1975</item>
+        <item>1974</item>
+        <item>1973</item>
+        <item>1972</item>
+        <item>1971</item>
+        <item>1970</item>
+    </string-array>
+
+    <string-array name="select_year">
+        <item>Sélectionnez l\'année de fabrication</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988</item>
+        <item>1987</item>
+        <item>1986</item>
+        <item>1985</item>
+        <item>1984</item>
+        <item>1983</item>
+        <item>1982</item>
+        <item>1981</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978</item>
+        <item>1977</item>
+        <item>1976</item>
+        <item>1975</item>
+        <item>1974</item>
+        <item>1973</item>
+        <item>1972</item>
+        <item>1971</item>
+        <item>1970</item>
+    </string-array>
+
+    <string-array name="taxi_type">
+        <item>Sélectionnez le type de véhicule</item>
+        <item>Vélo</item>
+        <item>Auto</item>
+    </string-array>
+
+    <string-array name="vehicle_type">
+        <item>Sélectionnez votre véhicule</item>
+        <item>Sedan</item>
+        <item>VUS</item>
+        <item>Prime</item>
+    </string-array>
+
+    <color name="translucent_black">#60000000</color>
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="change">Changement</string>
+    <string name="select_your_vehicle">Sélectionnez votre véhicule</string>
+    <string name="add_new">Ajouter nouveau</string>
+    <string name="manage">Faire en sorte</string>
+    <string name="transaction">Transactions</string>
+    <string name="my_wallet">Mon portefeuille</string>
+    <string name="add_money">Ajouter de l\'argent</string>
+    <string name="choose_or_enter_amt">Choisissez ou entrez le montant</string>
+    <string name="cancel">Annuler</string>
+    <string name="send_money">Envoyer de l\'argent</string>
+    <string name="its_safe_and_secure">C\'est sûr et sécurisé</string>
+    <string name="select_memeber_text">Sélectionnez le type de membre à qui vous souhaitez transférer le solde du portefeuille</string>
+    <string name="enter_amt">Entrer le montant</string>
+    <string name="driver">Chauffeur</string>
+    <string name="user">Utilisateur</string>
+    <string name="how_can_we_help_you">Comment pouvons-nous vous aider?</string>
+    <string name="your_feedback_is_very_impoortant_to_us_we_consider_your_feedback_very_seriously_and_work_hard_to_provide_you_with_the_best_possible_solution_at_the_earliest">Vos commentaires sont très importants pour nous. Nous prenons vos commentaires très au sérieux et travaillons dur pour vous fournir la meilleure solution possible dans les meilleurs délais.</string>
+    <string name="what_s_your_feedback_about">Sur quoi portez-vous vos commentaires ?</string>
+    <string name="tap_to_write">Appuyez pour écrire...</string>
+    <string name="contact_alert_text">Votre requête a été envoyée avec succès. Nous vous contacterons prochainement.</string>
+    <string name="please_tell_us_something_in_detail">S\'il vous plaît dites-nous quelque chose en détail</string>
+    <string name="please_enter_amount">Veuillez entrer le montant</string>
+    <string name="invalid_email">Email invalide</string>
+    <string name="you_can_add_maximum_5_contacts">Vous pouvez ajouter un maximum de 5 contacts</string>
+    <string name="delete_contact_text">Êtes-vous sûr de vouloir supprimer ce contact d\'urgence ?</string>
+    <string name="field_is_required">Les deux champs sont obligatoires</string>
+    <string name="transfer">Transfert</string>
+    <string name="wallet_balance">Solde du portefeuille</string>
+    <string name="settings">Réglages</string>
+    <string name="top_up">Recharger</string>
+    <string name="your_trips">Vos voyages</string>
+    <string name="change_pass">Changer le mot de passe</string>
+    <string name="user_feedback">Commentaires des utilisateurs</string>
+    <string name="manage_vehicle">Gérer le véhicule</string>
+    <string name="about_us">À propos de nous</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
+    <string name="terms_and_conditions">Termes et conditions</string>
+    <string name="contact_us">Nous contacter</string>
+    <string name="logout">Se déconnecter</string>
+    <string name="edit_vehicle">Modifier le véhicule</string>
+    <string name="update">Mettre à jour</string>
+    <string name="no_vehicle_found">Aucun véhicule trouvé</string>
+    <string name="delete_vehicle_text">Etes-vous sûr que vous voulez supprimer?</string>
+    <string name="req_cancelled">La demande est annulée</string>
+    <string name="close_app_text">Voulez-vous vraiment fermer l\'application ?</string>
+    <string name="navigate_to_map">Naviguer vers la carte</string>
+    <string name="navigate_to_pickup_location">Accédez au lieu de ramassage</string>
+    <string name="navigate_to_destination_location">Naviguer vers le lieu de dépôt</string>
+    <string name="please_select_reason">Veuillez sélectionner la raison</string>
+    <string name="payment_type">Type de paiement</string>
+    <string name="no_history_found">Aucun historique trouvé</string>
+    <string name="no_active_found">Aucun trajet actif</string>
+    <string name="no_schedule_found">Aucun trajet programmé</string>
+    <string name="schedule">Programme :</string>
+    <string name="schedule_rides">Planifier des trajets</string>
+    <string name="active_trips">Voyages actifs</string>
+    <string name="active_rides">Manèges actifs</string>
+    <string name="start_place">Lieu de départ</string>
+    <string name="end_place">Lieu de fin</string>
+    <string name="add_itermediate_stops_optional">Ajouter un arrêt intermédiaire (facultatif)</string>
+    <string name="select_date">Sélectionner une date</string>
+    <string name="select_time">Sélectionnez l\'heure</string>
+    <string name="seat_offer">Offre de places</string>
+    <string name="please_enter_start_loc">Veuillez sélectionner le lieu de départ</string>
+    <string name="please_enter_end_loc">Veuillez sélectionner l\'emplacement final</string>
+    <string name="add_stop_1_than2">Veuillez ajouter l\'arrêt 1 plutôt que l\'arrêt 2</string>
+    <string name="add_stop_1_2_3">Veuillez ajouter Stop 1 et Stop 2 plutôt que Stop 3</string>
+    <string name="please_select_date">Veuillez sélectionner la date</string>
+    <string name="please_select_time">Veuillez sélectionner l\'heure</string>
+    <string name="please_enteraval_seats">Veuillez saisir les places proposées</string>
+    <string name="enter_10_seats">Maximum 10 places que vous pouvez offrir</string>
+    <string name="stops">Arrêts</string>
+    <string name="success">Succès</string>
+    <string name="select_address">Sélectionnez l\'adresse</string>
+    <string name="all_addresses_are_created_by_admin_you_can_select_your_preferred_address">Toutes les adresses sont créées par l\'administrateur, vous pouvez sélectionner votre adresse préférée</string>
+    <string name="offer_not_approved_by_admin">Offre non approuvée par l\'administrateur</string>
+    <string name="approved_by_admin">Approuvé par l\'administrateur !</string>
+    <string name="charge_km">Frais par kilomètre</string>
+    <string name="please_enter_charge">Veuillez saisir les frais</string>
+    <string name="total_trip_cost">Coût total du voyage</string>
+    <string name="start_trip">Commencer le voyage</string>
+    <string name="navigate">Naviguer</string>
+    <string name="pool_request">Demande de pool</string>
+    <string name="user_requests">Demandes des utilisateurs</string>
+    <string name="trip_cost">Coût du voyage</string>
+    <string name="please_select_location_type">Veuillez sélectionner le type d\'emplacement</string>
+    <string name="number_of_passengers">Nombre de passagers</string>
+    <string name="contact_to_customer">Contacter le client</string>
+    <string name="no_review_found">Aucun avis trouvé</string>
+    <string name="old_password">ancien mot de passe</string>
+    <string name="new_password">nouveau mot de passe</string>
+    <string name="enter_old_pass">Veuillez saisir l\'ancien mot de passe</string>
+    <string name="enter_new_pass">Veuillez saisir un nouveau mot de passe</string>
+    <string name="old_pass_is_incorrect">Ancien mot de passe est incorrect</string>
+    <string name="my_document">Mon document</string>
+    <string name="email_not_exist">L\'e-mail ou le mot de passe n\'existent pas</string>
+    <string name="select_user_driver_text">Veuillez sélectionner l\'utilisateur/le conducteur que vous souhaitez envoyer</string>
+    <string name="add_contacts">Ajouter le contact</string>
+    <string name="emergency_contacts">Personne à contacter en cas d\'urgence</string>
+    <string name="contact_already_exist">Le contact existe déjà</string>
+    <string name="wait">Attendez</string>
+    <string name="additional_charges">Frais supplémentaires</string>
+    <string name="toll_charges">Frais de péage ($)</string>
+    <string name="other_charges">Autres frais ($)</string>
+    <string name="other_charge">Autres charges</string>
+    <string name="extra_charge">Supplément ($)</string>
+    <string name="skip">Sauter</string>
+    <string name="additional_alert_text">Êtes-vous sûr de vouloir continuer avec des frais supplémentaires ?</string>
+    <string name="toll_charge">Frais de péage</string>
+    <string name="intransit_waiting_fee">Frais d\'attente en transit</string>
+    <string name="tax_10">Taxe @ 10 %</string>
+    <string name="total_pay">Salaire total</string>
+    <string name="kindly_upload_mask_selfie_to_prove_that_your_following_safety_rules_after_than_you_can_start_the_trip">Veuillez télécharger le masque selfie pour prouver que vos règles de sécurité suivantes, après que vous pouvez commencer le voyage</string>
+    <string name="safety_essential">Sécurité Essentielle</string>
+    <string name="upload_photo">Envoyer la photo</string>
+    <string name="please_note_that_total_person_limit_for_ride_is_5">Veuillez noter que la limite totale de personnes pour Ride est de 5.</string>
+    <string name="please_upload_your_photo">Veuillez télécharger votre photo</string>
+    <string name="distance">Distance</string>
+    <string name="distance_cost">Coût de la distance</string>
+    <string name="select_document">Sélectionnez le document</string>
+    <string name="expiry_date">Date d\'expiration</string>
+    <string name="edit">Éditer</string>
+    <string name="view">Voir</string>
+    <string name="statistics">Statistiques</string>
+    <string name="select_year">Sélectionnez l\'année</string>
+    <string name="no_of_trips">Nombre de trajets</string>
+    <string name="no_earnings">Aucun revenu</string>
+    <string name="online_vehicle_update_note">Puisque vous êtes en ligne, vous ne pouvez pas mettre à jour les détails de votre véhicule. Veuillez vous déconnecter pour mettre à jour les détails du véhicule.</string>
+    <string name="active_cannot_delete">Votre véhicule est actif, vous ne pouvez donc pas le supprimer.</string>
+    <string name="you_have_one_vehicle_text">Vous n\'avez qu\'un seul véhicule, vous ne pouvez donc pas le supprimer</string>
+    <string name="card_details">Détails de la carte</string>
+    <string name="card_number">Numéro de carte</string>
+    <string name="expiry">Expiration</string>
+    <string name="cvv">CVV</string>
+    <string name="change_card">Changer de carte</string>
+    <string name="please_complete_the_form">Veuillez remplir le formulaire !</string>
+    <string name="pay_method">Mode de paiement</string>
+    <string name="bank_details">Coordonnées bancaires</string>
+    <string name="payment_email">Email de paiement</string>
+    <string name="bank_account_holder_name">Nom du titulaire du compte bancaire</string>
+    <string name="account_number">Numéro de compte</string>
+    <string name="bank_name">Nom de banque</string>
+    <string name="bank_location">Emplacement de la banque</string>
+    <string name="bic_swift_code">Code BIC/SWIFT</string>
+    <string name="enter_payment_email">Veuillez entrer l\'e-mail de paiement</string>
+    <string name="bank_holdername_text">Veuillez entrer le nom du titulaire de la banque</string>
+    <string name="account_number_text">Veuillez entrer le numéro de compte</string>
+    <string name="bank_name_text">"Veuillez saisir le nom de la banque"</string>
+    <string name="bank_location_text">Veuillez entrer l\'emplacement de la banque</string>
+    <string name="bic_swift_code_text">Veuillez saisir le code BIC/SWIFT</string>
+    <string name="general_settings">réglages généraux</string>
+    <string name="account_settings">Réglage du compte</string>
+    <string name="personal_details">Détails personnels</string>
+    <string name="payment">Paiement</string>
+    <string name="support">Support</string>
+    <string name="other">Autre</string>
+    <string name="please_add_your_card">Veuillez ajouter votre carte</string>
+    <string name="add_your_card">Ajouter votre carte</string>
+    <string name="please_add_card">Veuillez ajouter une carte</string>
+    <string name="faq">FAQ</string>
+    <string name="live_chat">Chat en direct</string>
+    <string name="donate">Faire un don</string>
+    <string name="title">Titre</string>
+    <string name="please_write_a_message">Veuillez écrire un message</string>
+    <string name="tahseen_support">Assistance Tahseen</string>
+    <string name="change_currency">Changer de devise</string>
+    <string name="offline">Hors ligne</string>
+    <string name="online">En ligne</string>
+</resources>

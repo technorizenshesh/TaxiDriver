@@ -2,12 +2,6 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <!--    <data>-->
-    <!--        <variable-->
-    <!--            name="driver"-->
-    <!--            type="com.hammoniatexiapp.pojos.UserDetail" />-->
-    <!--    </data>-->
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -28,7 +22,8 @@
             android:layout_marginTop="@dimen/_25sdp"
             android:background="@drawable/one_side_round_back"
             android:elevation="@dimen/_5sdp"
-            android:padding="@dimen/_10sdp">
+            android:padding="@dimen/_10sdp"
+            android:visibility="gone">
 
             <TextView
                 android:id="@+id/tvFrom"
@@ -46,8 +41,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:visibility="gone"
-            android:padding="@dimen/_15sdp">
+            android:padding="@dimen/_15sdp"
+            android:visibility="gone">
 
             <RelativeLayout
                 android:id="@+id/btnBack"
@@ -94,13 +89,14 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
                     android:layout_centerHorizontal="true"
-                    android:text="2 min"
-                    android:textStyle="bold"
                     android:layout_marginLeft="@dimen/_20sdp"
                     android:layout_marginTop="@dimen/_5sdp"
                     android:fontFamily="@font/poppins_medium"
+                    android:text="2 min"
                     android:textColor="@color/black"
-                    android:textSize="@dimen/_14sdp" />
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
 
                 <ImageView
                     android:id="@+id/ic_call"
@@ -117,6 +113,15 @@
                     android:layout_marginLeft="@dimen/_20sdp"
                     android:layout_toEndOf="@+id/ic_call"
                     android:src="@drawable/cancel_trip" />
+
+                <ImageView
+                    android:id="@+id/ivNavigate"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_toRightOf="@+id/ivCancelTrip"
+                    android:src="@drawable/navigate_icon" />
 
             </RelativeLayout>
 
@@ -162,7 +167,7 @@
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnStatus"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_35sdp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/_15sdp"
@@ -171,7 +176,7 @@
                 android:layout_marginBottom="@dimen/_15sdp"
                 android:background="@drawable/login_bt_back_yellow"
                 android:fontFamily="@font/poppins_medium"
-                android:padding="@dimen/_10sdp"
+                android:padding="@dimen/_5sdp"
                 android:text="@string/start"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
@@ -182,10 +187,10 @@
         <RelativeLayout
             android:id="@+id/rlFeedback"
             android:layout_width="match_parent"
-            android:visibility="gone"
             android:layout_height="@dimen/_340sdp"
             android:layout_alignParentBottom="true"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:visibility="gone">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -277,6 +282,131 @@
                 android:textSize="@dimen/_16sdp" />
 
         </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlPickDrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:background="@drawable/rounded_white_bg"
+            android:padding="@dimen/_10sdp">
+
+            <ImageView
+                android:id="@+id/ivfrom"
+                android:layout_width="@dimen/_6sdp"
+                android:layout_height="@dimen/_6sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/small_red_circle" />
+
+            <TextView
+                android:id="@+id/pickUp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_toEndOf="@+id/ivfrom"
+                android:backgroundTint="@color/white"
+                android:hint="@string/select_pick_up_address"
+                android:maxLines="3"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_12sdp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="@dimen/_1sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_below="@+id/ivfrom"
+                android:layout_marginVertical="@dimen/_2sdp"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:background="@color/gray" />
+
+            <ImageView
+                android:id="@+id/ivto"
+                android:layout_width="@dimen/_6sdp"
+                android:layout_height="@dimen/_6sdp"
+                android:layout_below="@+id/view1"
+                android:background="@drawable/down_arrow" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/pickUp"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_toEndOf="@id/view1"
+                android:background="@color/light_gray" />
+
+            <TextView
+                android:id="@+id/tvDestination"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view2"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_toEndOf="@id/ivto"
+                android:backgroundTint="@color/white"
+                android:ellipsize="end"
+                android:hint="@string/sel_destination"
+                android:inputType="none"
+                android:maxLines="3"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_12sdp" />
+
+        </RelativeLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnWaiting"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_below="@+id/rlPickDrop"
+            android:layout_marginLeft="@dimen/_150sdp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/yellow_outline_back"
+            android:elevation="@dimen/_15sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:padding="@dimen/_5sdp"
+            android:text="00:00:00"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16sdp" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:id="@+id/llWait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rlPickDrop"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:src="@drawable/emergency_icon" />
+
+            <TextView
+                android:id="@+id/tvWait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/driver_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:background="@drawable/waiting_back_5"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="@string/wait"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
 
     </RelativeLayout>
 

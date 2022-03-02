@@ -1,0 +1,510 @@
+<resources>
+    <string name="app_name">TaxiDrive</string>
+    <string name="api_key" translatable="false">AIzaSyAAjp4wuz5FyteoKH3Yp7Cv8pS1K86fJw0</string>
+    <string name="facebook_app_id">313870737210409</string>
+    <string name="fb_login_protocol_scheme">FB313870737210409</string>
+    <string name="logo">商標</string>
+    <string name="logout_text">您確定要退出嗎？</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="email">電子郵件</string>
+    <string name="password">密碼</string>
+    <string name="forgot_your_password">忘記密碼？</string>
+    <string name="login">登錄</string>
+    <string name="or_login_with_social_account">或使用社交賬號登錄</string>
+    <string name="dont_have_an_account">沒有帳戶？</string>
+    <string name="submit">提交</string>
+    <string name="set">放</string>
+    <string name="forgotpasswordtext">請輸入您的電子郵件地址。你會<br>  </br> 通過以下方式接收創建新密碼的鏈接<br>  </br> 電子郵件。</string>
+    <string name="forgot_password">忘記密碼</string>
+    <string name="verify_your_account">驗證您的帳戶</string>
+    <string name="we_sent_4_digit_code_to_your_phone">我們向您的手機發送了 6 位數代碼</string>
+    <string name="resend">重發</string>
+    <string name="please_select_the_reason_for_cancellation">請選擇原因<br>  </br> 取消：</string>
+    <string name="i_don_t_want_to_share">我不想分享</string>
+    <string name="can_t_contact_the_driver">聯繫不上司機</string>
+    <string name="driver_is_late">司機遲到了</string>
+    <string name="the_price_is_not_reasonable">價格不合理</string>
+    <string name="pickup_address_is_incorrect">取貨地址不正確</string>
+    <string name="verify">核實</string>
+    <string name="upload_picture">上傳圖片</string>
+    <string name="term_text">我接受所有<font fgcolor="#F6E24F"> 條款和條件</font>  </string>
+    <string name="first_name">名</string>
+    <string name="last_name">姓</string>
+    <string name="city_name">城市</string>
+    <string name="home_add">家庭地址</string>
+    <string name="phone_number">電話號碼</string>
+    <string name="sign_up">報名</string>
+    <string name="estimated_trip_time">預計行程時間</string>
+    <string name="available_balance">可用餘額</string>
+    <string name="i_m_coming">我來了</string>
+    <string name="already_have_an_account">已經有一個帳戶？</string>
+    <string name="home">家</string>
+    <string name="rider_isn_t_here">騎士不在</string>
+    <string name="wrong_address_shown">顯示錯誤的地址</string>
+    <string name="don_t_charge_rider">不要向騎手收費</string>
+    <string name="ride_history">騎行歷史</string>
+    <string name="help">幫助</string>
+    <string name="sign_out">登出</string>
+    <string name="message">信息</string>
+    <string name="promocode">促銷代碼</string>
+    <string name="change_language">改變語言</string>
+    <string name="select_pick_up_address">選擇取貨地址</string>
+    <string name="sel_destination">選擇目的地地址</string>
+    <string name="next">下一個</string>
+    <string name="transactions">交易</string>
+    <string name="recharge">充電</string>
+    <string name="update_picture">更新圖片</string>
+    <string name="save_details">保存詳細信息</string>
+    <string name="english">英語</string>
+    <string name="spanish">西班牙語</string>
+    <string name="italian">意大利語</string>
+    <string name="german">德語</string>
+    <string name="desti_loc">目的地位置</string>
+    <string name="update_when_you_arrived">到達時更新</string>
+    <string name="start_the_trip">開始旅行</string>
+    <string name="end_the_trip">結束旅程</string>
+    <string name="arrived_text">你確定你到了取貨地點嗎？</string>
+    <string name="start_the_trip_text">您確定要開始旅行嗎？</string>
+    <string name="end_the_trip_text">您確定要結束這次旅行嗎？</string>
+    <string name="save">保存</string>
+    <string name="kung_fu_chau_added_new_images_in_furniture_and_garden">功夫洲在家具和花園中添加了新圖像。</string>
+    <string name="apply_now">現在申請</string>
+    <string name="type_a_message">鍵入消息</string>
+    <string name="your_taxi_has_arrived">你的出租車到了</string>
+    <string name="call">稱呼</string>
+    <string name="searching_for_a_driver">正在尋找司機...</string>
+    <string name="msg">信息</string>
+    <string name="rate">速度</string>
+    <string name="payment_options">付款方式</string>
+    <string name="select_payment">選擇付款</string>
+    <string name="card_payment">信用卡支付</string>
+    <string name="cash">現金</string>
+    <string name="trip_finish_text">你的旅行結束了！請付款</string>
+    <string name="ok">好的</string>
+    <string name="your_trip_has_ended">您的行程已結束</string>
+    <string name="book_ride">書騎</string>
+    <string name="please_check_internet">請檢查您的網絡連接！</string>
+    <string name="terms_condition">條款</string>
+    <string name="terms_condition_text">Lorem Ipsum 只是印刷和排版行業的虛擬文本。自 1500 年代以來，Lorem Ipsum 一直是行業的標準虛擬文本，當時一位不知名的印刷商採用了一種類型的廚房並將其加擾以製作一本類型樣本書。它不僅經歷了五個世紀，而且經歷了電子排版的飛躍，基本保持不變。它在 1960 年代隨著包含 Lorem Ipsum 段落的 Letraset 表的發布而流行起來，最近還隨著 Aldus PageMaker 等桌面出版軟件（包括 Lorem Ipsum 的版本）而普及。</string>
+    <string name="my_vehicle">我的車</string>
+    <string name="accept">接受</string>
+    <string name="reject">拒絕</string>
+    <string name="vehicle_name">車輛名稱</string>
+    <string name="vehicle_number">車號</string>
+    <string name="model">模型</string>
+    <string name="brand">品牌</string>
+    <string name="service_type">服務類型</string>
+    <string name="add_vehicle">添加車輛</string>
+    <string name="vehicle_type">選擇車輛類型</string>
+    <string name="vehicle_service_type">選擇服務類型</string>
+    <string name="brand_type">品牌類型</string>
+    <string name="vehicle_model">模型</string>
+    <string name="number_plate">車牌號</string>
+    <string name="add">添加</string>
+    <string name="upload_documents">上傳文件</string>
+    <string name="upload_documentss">上傳文件</string>
+    <string name="done">完畢</string>
+    <string name="pan_card_text">請上傳泛卡</string>
+    <string name="driving_licesne_text">請上傳您的駕駛執照</string>
+    <string name="check_internet_text">請檢查您的網絡連接！</string>
+    <string name="dummy_text">Lorem Ipsum 只是印刷和排版行業的虛擬文本。 Lorem Ipsum 一直是業界標準的虛擬文本</string>
+    <string name="dummy_text1">Lorem Ipsum 只是印刷和排版行業的虛擬文本。自 1500 年代以來，Lorem Ipsum 一直是行業的標準虛擬文本，當時一位不知名的印刷商採用了一種類型的廚房並將其加擾以製作一本類型樣本書。它不僅經歷了五個世紀，而且經歷了電子排版的飛躍，基本保持不變。它在 1960 年代隨著包含 Lorem Ipsum 段落的 Letraset 表的發布而流行起來，最近還隨著 Aldus PageMaker 等桌面出版軟件（包括 Lorem Ipsum 的版本）而普及。</string>
+    <string name="subscriptions">訂閱</string>
+    <string name="_25_40_trips">$25 /40 次旅行</string>
+    <string name="_50_90_trips">50 美元 /90 次旅行</string>
+    <string name="_100_120_trips">100 美元 /120 次旅行</string>
+    <string name="purchase">購買</string>
+    <string name="documents">文件</string>
+    <string name="aadhar_card">阿德哈卡</string>
+    <string name="driving_license">駕駛執照</string>
+    <string name="pan_card">PAN卡</string>
+    <string name="start">開始</string>
+    <string name="ride_has_ended">騎行已結束</string>
+    <string name="collect_payment">收款</string>
+    <string name="send_feedback">發送反饋</string>
+    <string name="rate_rider">率騎士</string>
+    <string name="ratings_and_reviews">評級和評論</string>
+    <string name="open_to_all_trip">對所有行程開放</string>
+    <string name="driver_preferences">司機偏好</string>
+    <string name="services">服務</string>
+    <string name="notify">通知</string>
+    <string name="wallet_recharge">充值錢包</string>
+    <string name="recharge_wallet_through">通過充值錢包</string>
+    <string name="card_pay">卡支付</string>
+    <string name="paypal">貝寶</string>
+    <string name="earnings">收益</string>
+    <string name="total_earnings">總收入</string>
+    <string name="account">帳戶</string>
+    <string name="tax_information">稅務信息</string>
+    <string name="edit_account">編輯帳戶</string>
+    <string name="insurance">保險</string>
+    <string name="tax_profile">稅務概況</string>
+    <string name="invoice_settings">發票設置</string>
+    <string name="please_insert_your_first_and_last_name_on_entity_name_as_shown_on_your_abn_gst_registration">請在您的 ABN/GST 註冊上顯示的實體名稱上插入您的名字和姓氏。</string>
+    <string name="enter_your_full_name">輸入您的全名</string>
+    <string name="country">國家</string>
+    <string name="postal_code">郵政編碼</string>
+    <string name="disclaimer">免責聲明</string>
+    <string name="continue1">繼續</string>
+    <string name="cummunity_guidlines">社區指導方針</string>
+    <string name="invoice">發票</string>
+    <string name="select_invoice_generating_date">選擇發票生成日期</string>
+    <string name="select_service">選擇您的服務</string>
+    <string name="ride_sharing">乘車共享</string>
+    <string name="car_pooling">拼車</string>
+    <string name="add_vehicle_for_ride_share">為拼車添加車輛</string>
+    <string name="add_vehicle_for_car_pool">為拼車添加車輛</string>
+    <string name="normal_vehicle">普通車輛</string>
+    <string name="offer_pool">優惠池</string>
+    <string name="select_date_and_time">選擇日期和時間</string>
+    <string name="add_pool_request">優惠池</string>
+    <string name="available_riders">可用的車手</string>
+    <string name="my_pool_request">我的游泳池提供</string>
+    <string name="vehicle_make">選擇車輛品牌</string>
+    <string name="select_vehicle_model">選擇車型</string>
+    <string name="add_service_type">選擇此車輛的服務類型</string>
+    <string name="both">兩個都</string>
+
+    <string name="email_not_found">電子郵件未在我們這裡註冊</string>
+    <string name="reset_pass_msg">重置密碼鏈接發送到您的郵件 ID</string>
+    <string name="enter_name_text">請輸入你的名字</string>
+    <string name="enter_name_firsttext">請輸入您的名字</string>
+    <string name="enter_name_lasttext">請輸入您的姓氏</string>
+    <string name="enter_email_text">請輸入您的電子郵件</string>
+    <string name="enter_email">請輸入郵箱</string>
+    <string name="enter_phone_text">請輸入您的電話號碼</string>
+    <string name="enter_valid_email">請輸入有效的電子郵件</string>
+    <string name="please_enter_pass">請輸入密碼</string>
+    <string name="enter_city_text">請選擇您的城市</string>
+    <string name="enter_address1_text">請輸入您的家庭住址</string>
+    <string name="enter_address2_text">請選擇家庭住址 2</string>
+    <string name="enter_number_plate">請輸入車牌號</string>
+    <string name="mandatory_fields_text">所有字段均為必填項</string>
+    <string name="password_validation_text">密碼應為 5 個字符或長</string>
+    <string name="please_accept_terms">請接受條款和條件</string>
+    <string name="please_upload_profile">請上傳個人資料圖片</string>
+    <string name="enter_6_digit_code">請輸入6位驗證碼</string>
+    <string name="please_wait">請稍等...</string>
+    <string name="invalid_otp">無效的 OTP</string>
+    <string name="invalid_credentials">無效證件</string>
+    <string name="add_year_vehicle_text">請選擇生產年份</string>
+    <string name="select_vehicle_type">請選擇車型</string>
+    <string name="no_cat_found">未找到類別</string>
+    <string name="no_models_found">未找到模型</string>
+    <string name="no_make_found">沒有找到</string>
+    <string name="basic">基本的</string>
+    <string name="normal">普通的</string>
+    <string name="luxary">豪華</string>
+    <string name="pool">水池</string>
+    <string name="select_vehicle_make">選擇車輛品牌</string>
+    <string name="work_address">工作地址</string>
+    <string name="work_address_op">工作地址（可選）</string>
+    <string name="please_select_service_type">請選擇服務類型</string>
+    <string name="help_keep_your_community_safe">幫助確保您的社區安全</string>
+    <string name="please_take_the_following_actions_to_keep_cummunity_safe">請採取以下措施以確保社區安全</string>
+    <string name="wear_a_face_cover_or_mask">戴上口罩或口罩。</string>
+    <string name="keep_sanitize_products_with_you">隨身攜帶消毒產品。</string>
+    <string name="wash_or_sanitize_your_hands_before_and_after_your_service">在服務前後洗手或消毒雙手。</string>
+    <string name="disinfect_your_belongings_everydays">每天對您的物品進行消毒。</string>
+    <string name="ask_customers_to_sanitize_hands_before_service">要求顧客在服務前對雙手進行消毒。</string>
+    <string name="agree">同意</string>
+    <string name="bookings">預訂</string>
+    <string name="wallet">錢包</string>
+    <string name="profile">輪廓</string>
+
+    <string-array name="select_year_earnings">
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016 年</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008年</item>
+        <item>2007年</item>
+        <item>2006年</item>
+        <item>2005年</item>
+        <item>2004年</item>
+        <item>2003年</item>
+        <item>2002年</item>
+        <item>2001年</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988年</item>
+        <item>1987年</item>
+        <item>1986年</item>
+        <item>1985年</item>
+        <item>1984年</item>
+        <item>1983年</item>
+        <item>1982年</item>
+        <item>1981年</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978年</item>
+        <item>1977年</item>
+        <item>1976年</item>
+        <item>1975年</item>
+        <item>1974年</item>
+        <item>1973年</item>
+        <item>1972年</item>
+        <item>1971年</item>
+        <item>1970</item>
+    </string-array>
+
+    <string-array name="select_year">
+        <item>選擇製造年份</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2020</item>
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016 年</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008年</item>
+        <item>2007年</item>
+        <item>2006年</item>
+        <item>2005年</item>
+        <item>2004年</item>
+        <item>2003年</item>
+        <item>2002年</item>
+        <item>2001年</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+        <item>1991</item>
+        <item>1990</item>
+        <item>1989</item>
+        <item>1988年</item>
+        <item>1987年</item>
+        <item>1986年</item>
+        <item>1985年</item>
+        <item>1984年</item>
+        <item>1983年</item>
+        <item>1982年</item>
+        <item>1981年</item>
+        <item>1980</item>
+        <item>1979</item>
+        <item>1978年</item>
+        <item>1977年</item>
+        <item>1976年</item>
+        <item>1975年</item>
+        <item>1974年</item>
+        <item>1973年</item>
+        <item>1972年</item>
+        <item>1971年</item>
+        <item>1970</item>
+    </string-array>
+
+    <string-array name="taxi_type">
+        <item>選擇車輛類型</item>
+        <item>自行車</item>
+        <item>車</item>
+    </string-array>
+
+    <string-array name="vehicle_type">
+        <item>選擇您的車輛</item>
+        <item>轎車</item>
+        <item>越野車</item>
+        <item>優質的</item>
+    </string-array>
+
+    <color name="translucent_black">#60000000</color>
+    <string name="hello_blank_fragment">你好空白片段</string>
+    <string name="change">改變</string>
+    <string name="select_your_vehicle">選擇您的車輛</string>
+    <string name="add_new">添新</string>
+    <string name="manage">管理</string>
+    <string name="transaction">交易</string>
+    <string name="my_wallet">我的錢包</string>
+    <string name="add_money">加錢</string>
+    <string name="choose_or_enter_amt">選擇或輸入金額</string>
+    <string name="cancel">取消</string>
+    <string name="send_money">寄錢</string>
+    <string name="its_safe_and_secure">它是安全可靠的</string>
+    <string name="select_memeber_text">選擇您要轉入錢包餘額的會員類型</string>
+    <string name="enter_amt">輸入金額</string>
+    <string name="driver">司機</string>
+    <string name="user">用戶</string>
+    <string name="how_can_we_help_you">我們該怎樣幫助你？</string>
+    <string name="your_feedback_is_very_impoortant_to_us_we_consider_your_feedback_very_seriously_and_work_hard_to_provide_you_with_the_best_possible_solution_at_the_earliest">您的反饋對我們非常重要。我們非常重視您的反饋，並努力儘早為您提供最佳解決方案。</string>
+    <string name="what_s_your_feedback_about">你的反饋是什麼？</string>
+    <string name="tap_to_write">點按即可寫...</string>
+    <string name="contact_alert_text">您的查詢已成功發送。我們會盡快與您聯繫。</string>
+    <string name="please_tell_us_something_in_detail">請詳細告訴我們</string>
+    <string name="please_enter_amount">請輸入金額</string>
+    <string name="invalid_email">不合規電郵</string>
+    <string name="you_can_add_maximum_5_contacts">您最多可以添加 5 個聯繫人</string>
+    <string name="delete_contact_text">您確定要刪除此緊急聯繫人嗎？</string>
+    <string name="field_is_required">這兩個字段都是必需的</string>
+    <string name="transfer">轉移</string>
+    <string name="wallet_balance">錢包餘額</string>
+    <string name="settings">設置</string>
+    <string name="top_up">充值</string>
+    <string name="your_trips">您的旅行</string>
+    <string name="change_pass">更改密碼</string>
+    <string name="user_feedback">用戶反饋</string>
+    <string name="manage_vehicle">管理車輛</string>
+    <string name="about_us">關於我們</string>
+    <string name="privacy_policy">隱私政策</string>
+    <string name="terms_and_conditions">條款和條件</string>
+    <string name="contact_us">聯繫我們</string>
+    <string name="logout">登出</string>
+    <string name="edit_vehicle">編輯車輛</string>
+    <string name="update">更新</string>
+    <string name="no_vehicle_found">未找到車輛</string>
+    <string name="delete_vehicle_text">你確定你要刪除？</string>
+    <string name="req_cancelled">請求被取消</string>
+    <string name="close_app_text">您確定要關閉該應用程序嗎？</string>
+    <string name="navigate_to_map">導航到地圖</string>
+    <string name="navigate_to_pickup_location">導航至取貨地點</string>
+    <string name="navigate_to_destination_location">導航至下車地點</string>
+    <string name="please_select_reason">請選擇原因</string>
+    <string name="payment_type">支付方式</string>
+    <string name="no_history_found">未找到歷史記錄</string>
+    <string name="no_active_found">沒有主動遊樂設施</string>
+    <string name="no_schedule_found">沒有安排行程</string>
+    <string name="schedule">日程 ：</string>
+    <string name="schedule_rides">安排遊樂設施</string>
+    <string name="active_trips">積極旅行</string>
+    <string name="active_rides">主動遊樂設施</string>
+    <string name="start_place">開始位置</string>
+    <string name="end_place">結束位置</string>
+    <string name="add_itermediate_stops_optional">添加中間停止（可選）</string>
+    <string name="select_date">選擇日期</string>
+    <string name="select_time">選擇時間</string>
+    <string name="seat_offer">座位優惠</string>
+    <string name="please_enter_start_loc">請選擇出發地點</string>
+    <string name="please_enter_end_loc">請選擇結束位置</string>
+    <string name="add_stop_1_than2">請添加站點 1 而不是添加站點 2</string>
+    <string name="add_stop_1_2_3">請添加 Stop 1 和 Stop 2 而不是添加 Stop 3</string>
+    <string name="please_select_date">請選擇日期</string>
+    <string name="please_select_time">請選擇時間</string>
+    <string name="please_enteraval_seats">請輸入提供的座位</string>
+    <string name="enter_10_seats">您最多可以提供 10 個座位</string>
+    <string name="stops">停止</string>
+    <string name="success">成功</string>
+    <string name="select_address">選擇地址</string>
+    <string name="all_addresses_are_created_by_admin_you_can_select_your_preferred_address">所有地址均由管理員創建，您可以選擇您的首選地址</string>
+    <string name="offer_not_approved_by_admin">管理員未批准報價</string>
+    <string name="approved_by_admin">經管理員批准！</string>
+    <string name="charge_km">每公里收費</string>
+    <string name="please_enter_charge">請輸入費用</string>
+    <string name="total_trip_cost">總行程費用</string>
+    <string name="start_trip">開始旅行</string>
+    <string name="navigate">導航</string>
+    <string name="pool_request">池請求</string>
+    <string name="user_requests">用戶請求</string>
+    <string name="trip_cost">旅行費用</string>
+    <string name="please_select_location_type">請選擇位置類型</string>
+    <string name="number_of_passengers">乘客人數</string>
+    <string name="contact_to_customer">聯繫客戶</string>
+    <string name="no_review_found">未找到評論</string>
+    <string name="old_password">舊密碼</string>
+    <string name="new_password">新密碼</string>
+    <string name="enter_old_pass">請輸入舊密碼</string>
+    <string name="enter_new_pass">請輸入新密碼</string>
+    <string name="old_pass_is_incorrect">舊密碼不正確</string>
+    <string name="my_document">我的文檔</string>
+    <string name="email_not_exist">電子郵件或密碼不存在</string>
+    <string name="select_user_driver_text">請選擇您要發送的用戶/驅動程序</string>
+    <string name="add_contacts">增加聯繫人</string>
+    <string name="emergency_contacts">緊急聯繫人</string>
+    <string name="contact_already_exist">聯繫人已存在</string>
+    <string name="wait">等待</string>
+    <string name="additional_charges">附加費用</string>
+    <string name="toll_charges">通行費 ($)</string>
+    <string name="other_charges">其他費用 ($)</string>
+    <string name="other_charge">其他費用</string>
+    <string name="extra_charge">額外費用 ($)</string>
+    <string name="skip">跳過</string>
+    <string name="additional_alert_text">您確定要繼續收取額外費用嗎？</string>
+    <string name="toll_charge">收費</string>
+    <string name="intransit_waiting_fee">中轉等候費</string>
+    <string name="tax_10">稅@10%</string>
+    <string name="total_pay">總薪酬</string>
+    <string name="kindly_upload_mask_selfie_to_prove_that_your_following_safety_rules_after_than_you_can_start_the_trip">請上傳口罩自拍以證明您遵守安全規則，之後您可以開始旅行</string>
+    <string name="safety_essential">安全必備</string>
+    <string name="upload_photo">上傳圖片</string>
+    <string name="please_note_that_total_person_limit_for_ride_is_5">請注意，Ride 的總人數限制為 5。</string>
+    <string name="please_upload_your_photo">請上傳您的照片</string>
+    <string name="distance">距離</string>
+    <string name="distance_cost">距離成本</string>
+    <string name="select_document">選擇文件</string>
+    <string name="expiry_date">到期日</string>
+    <string name="edit">編輯</string>
+    <string name="view">看法</string>
+    <string name="statistics">統計數據</string>
+    <string name="select_year">選擇年份</string>
+    <string name="no_of_trips">行程次數</string>
+    <string name="no_earnings">沒有收入</string>
+    <string name="online_vehicle_update_note">由於您在線，因此您無法更新您的車輛詳細信息。請離線更新車輛詳細信息。</string>
+    <string name="active_cannot_delete">您的車輛處於活動狀態，因此您無法刪除它。</string>
+    <string name="you_have_one_vehicle_text">你只有一輛車，所以你不能刪除它</string>
+    <string name="card_details">卡詳情</string>
+    <string name="card_number">卡號</string>
+    <string name="expiry">到期</string>
+    <string name="cvv">CVV</string>
+    <string name="change_card">換卡</string>
+    <string name="please_complete_the_form">請填寫表格！</string>
+    <string name="pay_method">付款方法</string>
+    <string name="bank_details">銀行明細</string>
+    <string name="payment_email">付款郵箱</string>
+    <string name="bank_account_holder_name">銀行賬戶持有人姓名</string>
+    <string name="account_number">帳號</string>
+    <string name="bank_name">銀行名</string>
+    <string name="bank_location">銀行位置</string>
+    <string name="bic_swift_code">BIC/SWIFT 代碼</string>
+    <string name="enter_payment_email">請輸入付款郵箱</string>
+    <string name="bank_holdername_text">請輸入銀行持有人姓名</string>
+    <string name="account_number_text">請輸入帳號</string>
+    <string name="bank_name_text">“請輸入銀行名稱”</string>
+    <string name="bank_location_text">請輸入銀行地址</string>
+    <string name="bic_swift_code_text">請輸入 BIC/SWIFT 代碼</string>
+    <string name="general_settings">通用設置</string>
+    <string name="account_settings">賬戶設置</string>
+    <string name="personal_details">個人資料</string>
+    <string name="payment">支付</string>
+    <string name="support">支持</string>
+    <string name="other">其他</string>
+    <string name="please_add_your_card">請添加您的卡</string>
+    <string name="add_your_card">添加你的卡</string>
+    <string name="please_add_card">請加卡</string>
+    <string name="faq">常問問題</string>
+    <string name="live_chat">在線聊天</string>
+    <string name="donate">捐</string>
+    <string name="title">標題</string>
+    <string name="please_write_a_message">請寫留言</string>
+    <string name="tahseen_support">Tahseen 支持</string>
+    <string name="change_currency">更改貨幣</string>
+    <string name="offline">離線</string>
+    <string name="online">在線的</string>
+</resources>

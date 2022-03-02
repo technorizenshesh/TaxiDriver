@@ -8,7 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="transparent">#50D5DDE0</color>
     <color name="dialog_back_color">#646d79</color>
+    <color name="gray_new">#f0f0f0</color>
     <color name="bg_color">#60e5e5e5</color>
     <color name="red">#EC3324</color>
     <color name="light_gray">#D5DDE0</color>

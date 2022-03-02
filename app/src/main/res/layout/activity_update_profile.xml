@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="data"
+            type="com.taxidriver.models.ModelLogin.Result" />
+    </data>
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -62,7 +67,8 @@
                         android:layout_width="@dimen/_40sdp"
                         android:layout_height="@dimen/_40sdp"
                         android:layout_alignParentRight="true"
-                        android:src="@drawable/add_icon" />
+                        android:src="@drawable/add_icon"
+                        android:visibility="gone" />
 
                 </RelativeLayout>
 
@@ -87,20 +93,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
-                        android:backgroundTint="@color/white"
                         android:hint="@string/first_name"
+                        android:textColorHint="@color/black"
                         app:boxStrokeWidth="0dp"
                         app:boxStrokeWidthFocused="0dp"
-                        app:hintTextColor="@color/gray">
+                        app:hintTextColor="@color/black">
 
                         <EditText
                             android:id="@+id/etFirstName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/white"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
                             android:fontFamily="@font/poppins_medium"
                             android:imeOptions="actionNext"
                             android:inputType="textVisiblePassword"
+                            android:textColorHint="@color/black"
+                            android:text="@{data.first_name}"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp" />
 
@@ -118,20 +129,25 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@null"
-                        android:backgroundTint="@color/white"
                         android:hint="@string/last_name"
                         app:boxStrokeWidth="0dp"
+                        android:textColorHint="@color/black"
                         app:boxStrokeWidthFocused="0dp"
-                        app:hintTextColor="@color/gray">
+                        app:hintTextColor="@color/black">
 
                         <EditText
                             android:id="@+id/etLastName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:backgroundTint="@color/white"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:textColorHint="@color/black"
+                            android:focusableInTouchMode="false"
                             android:fontFamily="@font/poppins_medium"
                             android:imeOptions="actionNext"
                             android:inputType="textVisiblePassword"
+                            android:text="@{data.last_name}"
                             android:textColor="@color/black"
                             android:textSize="@dimen/_12sdp" />
 
@@ -143,39 +159,44 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tvNum"
+                    android:background="@color/white"
                     android:layout_marginTop="@dimen/_20sdp">
 
-                    <LinearLayout
+                    <RelativeLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@color/white"
-                        android:gravity="center_vertical"
-                        android:orientation="horizontal">
+                        android:background="@color/white">
 
                         <com.google.android.material.textfield.TextInputLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@null"
                             android:backgroundTint="@color/white"
+                            android:background="@null"
                             android:hint="@string/email"
                             app:boxStrokeWidth="0dp"
+                            android:textColorHint="@color/black"
                             app:boxStrokeWidthFocused="0dp"
-                            app:hintTextColor="@color/gray">
+                            app:hintTextColor="@color/black">
 
                             <EditText
                                 android:id="@+id/etEmail"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:backgroundTint="@color/white"
+                                android:cursorVisible="false"
+                                android:focusable="false"
+                                android:background="@color/white"
+                                android:textColorHint="@color/black"
+                                android:focusableInTouchMode="false"
                                 android:fontFamily="@font/poppins_medium"
                                 android:imeOptions="actionNext"
                                 android:inputType="textVisiblePassword"
+                                android:text="@{data.email}"
                                 android:textColor="@color/black"
                                 android:textSize="@dimen/_12sdp" />
 
                         </com.google.android.material.textfield.TextInputLayout>
 
-                    </LinearLayout>
+                    </RelativeLayout>
 
                 </RelativeLayout>
 
@@ -196,22 +217,27 @@
                             android:id="@+id/phone_edit_text"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:background="@null"
                             android:backgroundTint="@color/white"
                             android:hint="@string/phone_number"
                             app:boxStrokeWidth="0dp"
+                            android:textColorHint="@color/black"
                             app:boxStrokeWidthFocused="0dp"
-                            app:hintTextColor="@color/gray"
+                            app:hintTextColor="@color/black"
                             app:prefixText="+61">
 
                             <EditText
                                 android:id="@+id/etPhone"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:backgroundTint="@color/white"
+                                android:cursorVisible="false"
+                                android:background="@color/white"
+                                android:focusable="false"
+                                android:textColorHint="@color/black"
+                                android:focusableInTouchMode="false"
                                 android:fontFamily="@font/poppins_medium"
                                 android:imeOptions="actionNext"
                                 android:inputType="number"
+                                android:text="@{data.mobile}"
                                 android:textColor="@color/black"
                                 android:textSize="@dimen/_12sdp" />
 
@@ -227,6 +253,52 @@
                     android:layout_marginTop="@dimen/_20sdp"
                     android:background="@color/white">
 
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/city_name"
+                        android:textColorHint="@color/black"
+                        app:boxStrokeWidth="0dp"
+                        app:boxStrokeWidthFocused="0dp"
+                        app:hintTextColor="@color/black">
+
+                        <EditText
+                            android:id="@+id/etCityName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/white"
+                            android:cursorVisible="false"
+                            android:focusable="false"
+                            android:textColorHint="@color/black"
+                            android:focusableInTouchMode="false"
+                            android:fontFamily="@font/poppins_medium"
+                            android:imeOptions="actionNext"
+                            android:inputType="textVisiblePassword"
+                            android:text="@{data.city}"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_12sdp" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/home_add"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
                     <EditText
                         android:id="@+id/etAdd1"
                         android:layout_width="match_parent"
@@ -240,6 +312,43 @@
                         android:imeOptions="actionNext"
                         android:inputType="textVisiblePassword"
                         android:padding="@dimen/_12sdp"
+                        android:text="@{data.address}"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black"
+                        android:textSize="@dimen/_12sdp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/work_address"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white">
+
+                    <EditText
+                        android:id="@+id/etWorkAdd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:cursorVisible="false"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false"
+                        android:fontFamily="@font/poppins_medium"
+                        android:hint="@string/work_address_op"
+                        android:imeOptions="actionNext"
+                        android:inputType="textVisiblePassword|textMultiLine"
+                        android:padding="@dimen/_12sdp"
+                        android:text="@{data.workplace}"
                         android:textColor="@color/black"
                         android:textColorHint="@color/black"
                         android:textSize="@dimen/_12sdp" />

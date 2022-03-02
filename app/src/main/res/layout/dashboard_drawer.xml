@@ -139,6 +139,35 @@
                             android:textSize="@dimen/_15sdp" />
 
                         <TextView
+                            android:id="@+id/tvMyOffer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_15sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/_7sdp"
+                            android:text="@string/my_pool_request"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp" />
+
+                        <TextView
+                            android:id="@+id/tvOfferPool"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/_15sdp"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:gravity="center_vertical"
+                            android:padding="@dimen/_7sdp"
+                            android:text="@string/offer_pool"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_15sdp"
+                            android:visibility="gone" />
+
+                        <TextView
                             android:id="@+id/tvAccount"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"

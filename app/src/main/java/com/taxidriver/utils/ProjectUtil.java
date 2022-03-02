@@ -25,16 +25,22 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
+import android.widget.ListAdapter;
+import android.widget.ListView;
+import android.widget.Spinner;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.FileProvider;
 import androidx.loader.content.CursorLoader;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.material.snackbar.Snackbar;
@@ -43,6 +49,7 @@ import com.taxidriver.activities.LoginAct;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
@@ -79,6 +86,58 @@ public class ProjectUtil {
             return true;
         }
         return false;
+    }
+
+    public static String getCurrentDateNEW() {
+        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        String formattedDate = dateFormat.format(new Date());
+        return formattedDate;
+    }
+
+    public static void hideSpinnerDropDown(Spinner spinner) {
+        try {
+            Method method = Spinner.class.getDeclaredMethod("onDetachedFromWindow");
+            method.setAccessible(true);
+            method.invoke(spinner);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static boolean setListViewHeightBasedOnItems(ListView listView) {
+
+        ListAdapter listAdapter = listView.getAdapter();
+        if (listAdapter != null) {
+
+            int numberOfItems = listAdapter.getCount();
+
+            // Get total height of all items.
+            int totalItemsHeight = 0;
+            for (int itemPos = 0; itemPos < numberOfItems; itemPos++) {
+                View item = listAdapter.getView(itemPos, null, listView);
+                float px = 500 * (listView.getResources().getDisplayMetrics().density);
+                item.measure(View.MeasureSpec.makeMeasureSpec((int) px, View.MeasureSpec.AT_MOST), View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+                totalItemsHeight += item.getMeasuredHeight();
+            }
+
+            // Get total height of all item dividers.
+            int totalDividersHeight = listView.getDividerHeight() *
+                    (numberOfItems - 1);
+            // Get padding
+            int totalPadding = listView.getPaddingTop() + listView.getPaddingBottom();
+
+            // Set list height.
+            ViewGroup.LayoutParams params = listView.getLayoutParams();
+            params.height = totalItemsHeight + totalDividersHeight + totalPadding;
+            listView.setLayoutParams(params);
+            listView.requestLayout();
+            //setDynamicHeight(listView);
+            return true;
+
+        } else {
+            return false;
+        }
+
     }
 
     public static void logoutAppDialog(Context mContext) {
@@ -125,9 +184,40 @@ public class ProjectUtil {
         ((Activity) mContext).startActivityForResult(Intent.createChooser(intent, "Select Image"), GALLERY);
     }
 
+    public static void imageShowFullscreenDialog(Context mContext, String url) {
+        Dialog dialog = new Dialog(mContext, WindowManager.LayoutParams.MATCH_PARENT);
+        dialog.setContentView(R.layout.image_fullscreen_dialog);
+        TouchImageView ivImage = dialog.findViewById(R.id.ivImage);
+        ivImage.setMaxZoom(4f);
+        Glide.with(mContext).load(url).into(ivImage);
+        dialog.show();
+    }
+
+    public static void exitAppDialog(Context mContext) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
+        builder.setMessage(mContext.getString(R.string.close_app_text))
+                .setCancelable(false)
+                .setPositiveButton(mContext.getString(R.string.yes), new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(Intent.ACTION_MAIN);
+                        intent.addCategory(Intent.CATEGORY_HOME);
+                        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        mContext.startActivity(intent);
+                    }
+                }).setNegativeButton(mContext.getString(R.string.no), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.cancel();
+            }
+        });
+        AlertDialog alertDialog = builder.create();
+        alertDialog.show();
+    }
+
     public static String openCamera(Context mContext, int CAMERA) {
 
-        File dirtostoreFile = new File(Environment.getExternalStorageDirectory() + "/dayscab/Images/");
+        File dirtostoreFile = new File(Environment.getExternalStorageDirectory() + "/taxidriver/Images/");
 
         if (!dirtostoreFile.exists()) {
             dirtostoreFile.mkdirs();
@@ -135,12 +225,12 @@ public class ProjectUtil {
 
         String timestr = convertDateToString(Calendar.getInstance().getTimeInMillis());
 
-        File tostoreFile = new File(Environment.getExternalStorageDirectory() + "/dayscab/Images/" + "IMG_" + timestr + ".jpg");
+        File tostoreFile = new File(Environment.getExternalStorageDirectory() + "/taxidriver/Images/" + "IMG_" + timestr + ".jpg");
 
         String str_image_path = tostoreFile.getPath();
 
         Uri uriSavedImage = FileProvider.getUriForFile(Objects.requireNonNull(((Activity) mContext)),
-                /*BuildConfig.APPLICATION_ID +*/ ".provider", tostoreFile);
+                "com.taxidriver.provider", tostoreFile);
 
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         intent.putExtra(MediaStore.EXTRA_OUTPUT, uriSavedImage);
@@ -352,7 +442,7 @@ public class ProjectUtil {
                 Log.w("My Current address", "Canont get Address!");
             }
         }
-        return strAdd;
+        return strAdd.trim();
     }
 
     private static void bearingBetweenLocations(MarkerOptions marker, LatLng latLng1, LatLng latLng2) {
