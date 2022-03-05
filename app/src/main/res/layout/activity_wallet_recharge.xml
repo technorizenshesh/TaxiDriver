@@ -17,7 +17,7 @@
                 android:layout_width="@dimen/_30sdp"
                 android:layout_height="@dimen/_30sdp"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
                 android:src="@drawable/ic_back_black" />
 
             <TextView
@@ -39,8 +39,8 @@
             android:layout_height="wrap_content"
             app:cardBackgroundColor="@color/yellow"
             android:layout_marginTop="@dimen/_20sdp"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
             app:cardCornerRadius="@dimen/_20sdp">
 
             <RelativeLayout
@@ -97,8 +97,8 @@
             app:contentPadding="@dimen/_12sdp"
             app:cardElevation="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_5sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:elevation="@dimen/_20sdp"
             app:cardCornerRadius="@dimen/_10sdp">
 
@@ -116,8 +116,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="@dimen/_10sdp"
-                    android:layout_toRightOf="@+id/cardIcon"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_toEndOf="@+id/cardIcon"
                     android:fontFamily="@font/poppins_bold"
                     android:includeFontPadding="false"
                     android:text="@string/card_pay"
@@ -129,7 +129,7 @@
                     android:layout_height="@dimen/_18sdp"
                     android:src="@drawable/right_arrow"
                     android:layout_centerVertical="true"
-                    android:layout_alignParentRight="true" />
+                    android:layout_alignParentEnd="true" />
 
             </RelativeLayout>
 
@@ -141,8 +141,8 @@
             app:contentPadding="@dimen/_12sdp"
             app:cardElevation="@dimen/_5sdp"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:elevation="@dimen/_20sdp"
             app:cardCornerRadius="@dimen/_10sdp">
 
@@ -160,8 +160,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="@dimen/_10sdp"
-                    android:layout_toRightOf="@+id/cardIcon1"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_toEndOf="@+id/cardIcon1"
                     android:fontFamily="@font/poppins_bold"
                     android:includeFontPadding="false"
                     android:text="@string/paypal"
@@ -172,7 +172,7 @@
                     android:layout_width="@dimen/_18sdp"
                     android:layout_height="@dimen/_18sdp"
                     android:layout_centerVertical="true"
-                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
                     android:src="@drawable/right_arrow" />
 
             </RelativeLayout>

@@ -16,11 +16,11 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:cardCornerRadius="@dimen/_10sdp"
-            app:cardElevation="@dimen/_10sdp"
             android:layout_margin="@dimen/_10sdp"
             android:background="@color/white"
-            android:elevation="@dimen/_10sdp">
+            android:elevation="@dimen/_10sdp"
+            app:cardCornerRadius="@dimen/_10sdp"
+            app:cardElevation="@dimen/_10sdp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -33,9 +33,9 @@
                     android:id="@+id/tvEventText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
                     android:gravity="center"
                     android:text="@string/change_language"
                     android:textColor="@color/black"
@@ -53,8 +53,8 @@
                     <RadioGroup
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/_15sdp"
-                        android:layout_marginRight="@dimen/_15sdp"
+                        android:layout_marginStart="@dimen/_15sdp"
+                        android:layout_marginEnd="@dimen/_15sdp"
                         android:orientation="vertical">
 
                         <RadioButton
@@ -75,7 +75,6 @@
                             android:layout_marginTop="@dimen/_8sdp"
                             android:buttonTint="@color/white"
                             android:text="Urdu"
-                            android:visibility="gone"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_15sdp"
                             android:textStyle="bold" />
@@ -87,7 +86,6 @@
                             android:layout_marginTop="@dimen/_8sdp"
                             android:buttonTint="@color/white"
                             android:text="Chinese"
-                            android:layout_marginBottom="@dimen/_20sdp"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_15sdp"
                             android:textStyle="bold" />
@@ -99,11 +97,10 @@
                             android:layout_marginTop="@dimen/_8sdp"
                             android:buttonTint="@color/white"
                             android:text="Arabic"
-                            android:visibility="gone"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_15sdp"
                             android:textStyle="bold"
-                            />
+                            android:visibility="gone" />
 
                         <RadioButton
                             android:id="@+id/radioFrench"
@@ -113,7 +110,6 @@
                             android:layout_marginBottom="@dimen/_20sdp"
                             android:buttonTint="@color/white"
                             android:text="French"
-                            android:visibility="gone"
                             android:textColor="@color/white"
                             android:textSize="@dimen/_15sdp"
                             android:textStyle="bold" />

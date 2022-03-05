@@ -70,7 +70,7 @@
                         android:id="@+id/ivDelete"
                         android:layout_width="@dimen/_30sdp"
                         android:layout_height="@dimen/_30sdp"
-                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
                         android:src="@drawable/delete_vehicle" />
 
                 </androidx.appcompat.widget.LinearLayoutCompat>

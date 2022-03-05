@@ -17,7 +17,7 @@
                 android:layout_width="@dimen/_30sdp"
                 android:layout_height="@dimen/_30sdp"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
                 android:src="@drawable/ic_back_black" />
 
             <TextView
@@ -46,7 +46,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:fontFamily="@font/poppins_medium"
             android:padding="@dimen/_8sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:text="@string/invoice_settings"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp"
@@ -58,7 +58,7 @@
             android:layout_centerInParent="true"
             android:fontFamily="@font/poppins_regular"
             android:padding="@dimen/_8sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:text="@string/please_insert_your_first_and_last_name_on_entity_name_as_shown_on_your_abn_gst_registration"
             android:textColor="@color/gray"
             android:textSize="@dimen/_12sdp"
@@ -67,8 +67,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:background="@color/white">
 
             <EditText
@@ -90,8 +90,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:background="@color/white">
 
             <EditText
@@ -116,8 +116,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:background="@color/white">
 
             <EditText
@@ -142,8 +142,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:background="@color/white">
 
             <EditText
@@ -173,7 +173,7 @@
                 android:layout_height="wrap_content"
                 android:scaleX="1.2"
                 android:scaleY="1.2"
-                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
                 android:buttonTint="@color/yellow" />
 
             <EditText
@@ -199,7 +199,7 @@
             android:layout_centerInParent="true"
             android:fontFamily="@font/poppins_regular"
             android:padding="@dimen/_8sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:text="@string/dummy_text"
             android:textColor="@color/black"
             android:textSize="@dimen/_12sdp"
@@ -212,8 +212,8 @@
             android:layout_centerVertical="true"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
             android:background="@drawable/login_bt_back_yellow"
             android:fontFamily="@font/poppins_medium"
             android:padding="@dimen/_10sdp"

@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:layout_centerInParent="true"
             android:gravity="center_vertical"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:fontFamily="@font/inter_semi_bold"
             android:text="How to change my account details"
             android:textColor="@color/textColor"
@@ -26,7 +26,7 @@
             android:id="@+id/ivDetails"
             android:layout_width="0dp"
             android:layout_weight="0.1"
-            android:layout_marginRight="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
             android:layout_height="match_parent"
             android:src="@drawable/black_right_arrow"/>
 

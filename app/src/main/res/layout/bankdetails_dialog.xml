@@ -19,14 +19,14 @@
                 android:layout_width="@dimen/_25sdp"
                 android:layout_height="@dimen/_25sdp"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
                 android:src="@drawable/ic_back_black" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:fontFamily="@font/poppins_medium"
                 android:includeFontPadding="false"
@@ -42,8 +42,8 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:gravity="center_vertical">
 
             <com.google.android.material.textfield.TextInputLayout
@@ -76,8 +76,8 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:gravity="center_vertical">
 
             <com.google.android.material.textfield.TextInputLayout
@@ -110,8 +110,8 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:gravity="center_vertical">
 
             <com.google.android.material.textfield.TextInputLayout
@@ -145,8 +145,8 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:gravity="center_vertical">
 
             <com.google.android.material.textfield.TextInputLayout
@@ -179,8 +179,8 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:gravity="center_vertical">
 
             <com.google.android.material.textfield.TextInputLayout
@@ -212,8 +212,8 @@
             android:layout_height="wrap_content"
             android:background="@color/white"
             android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:gravity="center_vertical">
 
             <com.google.android.material.textfield.TextInputLayout

@@ -486,7 +486,7 @@
     <string name="enter_payment_email">Please enter payment email</string>
     <string name="bank_holdername_text">Please enter bank holder name</string>
     <string name="account_number_text">Please enter account number</string>
-    <string name="bank_name_text">"Please enter bank name "</string>
+    <string name="bank_name_text">Please enter bank name</string>
     <string name="bank_location_text">Please enter bank location</string>
     <string name="bic_swift_code_text">Please enter BIC/SWIFT Code</string>
     <string name="general_settings">General Settings</string>
@@ -508,3 +508,4 @@
     <string name="offline">Offline</string>
     <string name="online">Online</string>
 </resources>
+

@@ -47,7 +47,7 @@
                         android:id="@+id/ivChangeLanguage"
                         android:layout_width="@dimen/_30sdp"
                         android:layout_height="@dimen/_30sdp"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:src="@drawable/translate_icon" />
 
@@ -61,14 +61,14 @@
                         android:id="@+id/profileImage"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_5sdp"
                         android:src="@drawable/gray_cirle" />
 
                     <ImageView
                         android:id="@+id/addIcon"
                         android:layout_width="@dimen/_40sdp"
                         android:layout_height="@dimen/_40sdp"
-                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
                         android:src="@drawable/add_icon" />
 
                 </RelativeLayout>
@@ -397,7 +397,7 @@
                         android:layout_width="@dimen/_30sdp"
                         android:layout_height="@dimen/_25sdp"
                         android:layout_centerVertical="true"
-                        android:layout_toRightOf="@+id/tvForgotPass"
+                        android:layout_toEndOf="@+id/tvForgotPass"
                         android:src="@drawable/right_arrow_red" />
 
                 </RelativeLayout>

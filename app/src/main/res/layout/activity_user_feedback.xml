@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_below="@id/tvName"
-            android:layout_toRightOf="@+id/ivUserPic"
+            android:layout_toEndOf="@+id/ivUserPic"
             android:isIndicator="true" />
 
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout

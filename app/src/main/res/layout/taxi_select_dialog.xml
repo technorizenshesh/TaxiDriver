@@ -41,8 +41,8 @@
                 <ListView
                     android:id="@+id/carList"
                     android:layout_width="match_parent"
-                    android:layout_marginLeft="@dimen/_10sdp"
-                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
                     android:layout_height="wrap_content" />
 
                 <androidx.appcompat.widget.LinearLayoutCompat
@@ -63,7 +63,7 @@
                         android:background="@drawable/yellow_outline_back"
                         android:fontFamily="@font/poppins_medium"
                         android:padding="@dimen/_10sdp"
-                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
                         android:text="@string/manage"
                         android:textAllCaps="false"
                         android:textColor="@color/black"
@@ -75,8 +75,8 @@
                         android:layout_weight="0.5"
                         android:layout_height="@dimen/_40sdp"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="@dimen/_5sdp"
-                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_5sdp"
+                        android:layout_marginEnd="@dimen/_10sdp"
                         android:layout_marginTop="@dimen/_10sdp"
                         android:layout_marginBottom="@dimen/_5sdp"
                         android:background="@drawable/yellow_back_button_10"

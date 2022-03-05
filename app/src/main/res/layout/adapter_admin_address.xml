@@ -29,7 +29,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginStart="@dimen/_5sdp"
                 android:fontFamily="@font/poppins_medium"
                 android:text="53, Kamdhenu Shopping Centre, Lokhandwala Complex, Andheri (west)"
                 android:textColor="@color/black"

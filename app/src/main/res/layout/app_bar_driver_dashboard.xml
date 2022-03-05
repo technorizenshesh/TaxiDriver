@@ -79,9 +79,9 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_centerVertical="true"
-                    android:layout_toRightOf="@+id/cvImg"
-                    android:layout_toLeftOf="@+id/switchOnOff"
-                    android:layout_marginLeft="@dimen/_10sdp">
+                    android:layout_toEndOf="@+id/cvImg"
+                    android:layout_toStartOf="@+id/switchOnOff"
+                    android:layout_marginStart="@dimen/_10sdp">
 
                     <TextView
                         android:id="@+id/tvName"

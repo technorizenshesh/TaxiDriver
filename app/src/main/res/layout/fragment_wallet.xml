@@ -46,8 +46,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:weightSum="2"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
             android:layout_marginTop="-40dp"
             android:orientation="horizontal">
 
@@ -81,12 +81,12 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
                         android:textSize="@dimen/_10sdp"
                         android:layout_marginTop="@dimen/_5sdp"
                         android:gravity="center"
-                        android:layout_marginRight="@dimen/_10sdp"
-                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_alignParentEnd="true"
                         android:text="@string/add_money"/>
 
                 </LinearLayout>
@@ -124,12 +124,12 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
                         android:textSize="@dimen/_10sdp"
                         android:layout_marginTop="@dimen/_5sdp"
                         android:gravity="center"
-                        android:layout_marginRight="@dimen/_10sdp"
-                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_alignParentEnd="true"
                         android:text="@string/transfer"/>
 
                 </LinearLayout>
@@ -168,12 +168,12 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
                         android:layout_centerVertical="true"
-                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
                         android:textSize="@dimen/_10sdp"
                         android:layout_marginTop="@dimen/_5sdp"
                         android:gravity="center"
-                        android:layout_marginRight="@dimen/_10sdp"
-                        android:layout_alignParentRight="true"/>
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:layout_alignParentEnd="true"/>
 
                 </LinearLayout>
 
@@ -186,13 +186,13 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
             android:textSize="@dimen/_12sdp"
             android:textStyle="bold"
             android:layout_marginTop="@dimen/_10sdp"
             android:gravity="center"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_alignParentEnd="true"
             android:text="@string/transaction"/>
 
         <androidx.swiperefreshlayout.widget.SwipeRefreshLayout

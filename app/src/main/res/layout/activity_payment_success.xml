@@ -11,8 +11,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:layout_marginLeft="@dimen/_20sdp"
-            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
             android:background="@drawable/white_design_back_cut"
             android:padding="@dimen/_10sdp">
 
@@ -54,7 +54,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:layout_marginRight="@dimen/_5sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
                     android:fontFamily="@font/poppins_regular"
                     android:text="18:39"
                     android:textColor="@color/textColor"
@@ -76,16 +76,16 @@
                     android:layout_width="@dimen/_6sdp"
                     android:layout_height="@dimen/_6sdp"
                     android:layout_marginTop="@dimen/_15sdp"
-                    android:layout_toRightOf="@+id/tvFromTime"
+                    android:layout_toEndOf="@+id/tvFromTime"
                     android:background="@drawable/small_red_circle" />
 
                 <TextView
                     android:id="@+id/tvFrom"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:layout_toRightOf="@+id/ivfrom"
+                    android:layout_toEndOf="@+id/ivfrom"
                     android:ellipsize="end"
                     android:maxLines="2"
                     android:text="1, Thrale Street,\n London, SE19HW, UK"
@@ -98,8 +98,8 @@
                     android:layout_height="@dimen/_35sdp"
                     android:layout_below="@+id/ivfrom"
                     android:layout_marginVertical="@dimen/_2sdp"
-                    android:layout_marginLeft="@dimen/_3sdp"
-                    android:layout_toRightOf="@+id/tvFromTime"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:layout_toEndOf="@+id/tvFromTime"
                     android:background="@color/textColor" />
 
                 <ImageView
@@ -107,7 +107,7 @@
                     android:layout_width="@dimen/_6sdp"
                     android:layout_height="@dimen/_6sdp"
                     android:layout_below="@+id/view1"
-                    android:layout_toRightOf="@+id/tvFromTime"
+                    android:layout_toEndOf="@+id/tvFromTime"
                     android:background="@drawable/down_arrow" />
 
                 <View
@@ -115,21 +115,21 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/_1sdp"
                     android:layout_below="@+id/tvFrom"
-                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
                     android:layout_marginTop="@dimen/_15sdp"
-                    android:layout_toRightOf="@id/view1" />
+                    android:layout_toEndOf="@id/view1" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/view2"
-                    android:layout_toRightOf="@id/ivto">
+                    android:layout_toEndOf="@id/ivto">
 
                     <TextView
                         android:id="@+id/etDestination"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_marginStart="@dimen/_8sdp"
                         android:ellipsize="end"
                         android:inputType="none"
                         android:maxLines="2"
